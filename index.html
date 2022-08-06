@@ -9,57 +9,44 @@
 <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet"> 
 
 
-
+<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="./dist/output.css">
   
 
 
 </head>
-<body class=" 
-border-none
-h-screen
-grid
-grid-cols-12 
-grid-rows-6">
+<body>
+<div class="
 
+h-screen">
 <nav class="
  grid 
- grid-cols-12
- grid-rows-1
-
- row-start-1 
- row-end-2
- col-start-2 
- col-end-12 
- justify-center
+ grid-cols-9
+ mt-5 
+ w-screen
  truncate">
-  
+ 
+ 
  <h1 class="
-   
-    col-start-1
-    col-end-5
-    row-start-1
-    row-end-3
+      
     font-Epilogue
     font-bold
     text-4xl
     leading-8
-    truncate
+     
+    col-span-3
     place-self-center
-    lg:col-start-1
-    
-    
-    ">
+    truncate">
     snap
   </h1>
   <div class="
   menu
   grid 
+  
+  
   space-y-2 
-  col-start-11 
-  col-end-12 
-  row-start-1 
-  row-end-4 s
+  col-start-8
+  col-span-2
   place-self-center
   md:hidden">
     <div class=" w-8 h-0.5 bg-gray-600"></div>
@@ -69,21 +56,19 @@ grid-rows-6">
   </div>
   <div class="
   hidden
-  md:grid
-  md:row-start-1
-  md:row-span-1
-  col-start-4
-  col-span-12
+  sm:grid
+  sm:row-start-1
+  sm:row-span-1
+  
   lg:grid">
     <ul class="
-    grid
-    grid-cols-10">
+    sm:grid
+    sm:grid-cols-10">
       
     <li class="
-      col-start-1 
-      col-span-1 
       
-      place-self-center 
+      
+      sm:place-self-center 
       text-gray-600
       hover:text-black"><a href="">Features</a></li>
       
@@ -133,11 +118,7 @@ grid-rows-6">
 <div class="
  image-logo
  grid 
- grid-cols-2  
- grid-rows-1 
- row-start-2 
- col-start-2 
- col-end-12 
+
  row-end-5
  mb-2
  border-3
@@ -146,7 +127,8 @@ grid-rows-6">
  md:row-span-5 ">
  
  <img class="
- col-start-1
+ mt-5
+ 
  col-span-11
  max-h-full
  w-auto
@@ -157,7 +139,7 @@ grid-rows-6">
  
  <img class="
  hidden
- md:grid
+ sm:grid
  col-start-1
  col-span-2
  lg:col-start-2
@@ -192,9 +174,11 @@ lg:h-[80%]
 
 
   <span class=" 
-  row-start-1 
+  
+  
+  place-self-center 
   row-span-3
-  col-span-1
+  
   font-Epilogue 
   text-3xl
   leading-[70px]
@@ -203,17 +187,14 @@ lg:h-[80%]
   lg:text-[70px]
   lg:row-start-2
   lg:row-span-1
-  whitespace-normal
-  
-    
+  whitespace-normal    
   md:pb-9">Make remote work</span>
   
   
   <span class=" 
-  row-start-5 
-  row-end-4 
-  col-start-1
-  col-end-12
+  border-4
+  p-5
+  place-self-center
   text-gray-500
   text-base
   h-36
@@ -280,8 +261,7 @@ lg:h-[80%]
   lg:row-start-7
   mt-7
   md:w-[100%]
-  md:h-[100%">
- <div class="
+  md:h-[100%"><div class="
    w-[60px]
    col-start-1
    col-span-1
@@ -311,7 +291,7 @@ lg:h-[80%]
 
 
   
+  <script src="./main.js"></script>
+  </body>
 
-  
-</body>
 </html>
